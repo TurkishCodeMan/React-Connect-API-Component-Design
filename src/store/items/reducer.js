@@ -5,8 +5,7 @@ import { selectItem } from "./selectors";
 let id = 1;
 
 export const initialItems = [
-  { uuid: id++, name: 'Tofu Roast Awesome', price: 14, quantity: 1 },
-  { uuid: id++, name: 'Vegan Ham', price: 12, quantity: 1 }
+  { uuid: id++, name: 'Sucuk', price: 36, quantity: 1 },
 ];
 
 export const reducer = produce((state = initialItems, action) => {
